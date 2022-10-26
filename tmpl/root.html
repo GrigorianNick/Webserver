@@ -1,0 +1,8 @@
+<h1>Welcome to the test root server! {{.Title}}</h1> 
+
+<u1>
+    {{range .Pages}}
+        <p><a href="/view/{{.Title}}">{{.Title}}</a></p>
+    {{end}}
+    <p><a href="/events/">Event Randomizer</a></p>
+</u1>
